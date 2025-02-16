@@ -4,11 +4,13 @@ body {
     cursor: none;
     margin: 0;
     padding: 0;
+    color: white;
+    text-shadow: 1px 1px 0px black, -1px -1px 0px black, 1px -1px 0px black, -1px 1px 0px black;
 }
 
 .cursor {
-    width: 30px;
-    height: 30px;
+    width: 90px;
+    height: 90px;
     position: absolute;
     background: radial-gradient(circle, #ff856b 30%, rgba(255,133,107,0) 80%);
     border-radius: 50%;
@@ -33,7 +35,7 @@ header {
 }
 
 .logo {
-    width: 90px;
+    width: 50px;
 }
 
 nav ul {
@@ -51,6 +53,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: white;
+    text-shadow: 1px 1px 0px black, -1px -1px 0px black, 1px -1px 0px black, -1px 1px 0px black;
 }
 
 .language-switcher {
@@ -64,8 +67,9 @@ nav ul li a {
     font-size: 16px;
     cursor: pointer;
     margin-left: 10px;
+    text-shadow: 1px 1px 0px black, -1px -1px 0px black, 1px -1px 0px black, -1px 1px 0px black;
 }
 
 main {
-    padding-top: 150px;
+    padding-top: 100px;
 }
