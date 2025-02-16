@@ -95,6 +95,11 @@ main {
     transition: transform 0.1s ease, box-shadow 0.1s ease;
 }
 
+.tech-icons img {
+    width: 50px;
+    height: auto;
+    filter: drop-shadow(1px 1px 0px black) drop-shadow(-1px -1px 0px black) drop-shadow(1px -1px 0px black) drop-shadow(-1px 1px 0px black);
+
 .dashed-line {
     width: 80%;
     margin: 50px auto;
