@@ -5,6 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #818181;
+            font-family: "Helvetica Now Pro Text Medium", sans-serif;
+            cursor: none;
+        }
+        .cursor {
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            background: radial-gradient(circle, #ff856b 30%, rgba(255,133,107,0) 80%);
+            border-radius: 50%;
+            pointer-events: none;
+            transform: translate(-50%, -50%);
+            transition: transform 0.05s ease-out;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+        }
+        .logo {
+            width: 50px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+        .language-switcher button {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
     <div class="cursor"></div>
