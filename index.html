@@ -10,6 +10,8 @@
             background-color: #818181;
             font-family: "Helvetica Now Pro Text Medium", sans-serif;
             cursor: none;
+            margin: 0;
+            padding: 0;
         }
         .cursor {
             width: 30px;
@@ -32,14 +34,18 @@
             width: 100%;
             top: 0;
             left: 0;
+            height: 80px;
+            z-index: 1000;
         }
         .logo {
-            width: 50px;
+            width: 100px;
         }
         nav ul {
             list-style: none;
             display: flex;
             gap: 20px;
+            padding: 0;
+            margin: 0;
         }
         nav ul li {
             display: inline;
@@ -49,7 +55,7 @@
             color: white;
         }
         .language-switcher {
-            margin-right: 20px;
+            margin-right: 30px;
         }
         .language-switcher button {
             background: none;
@@ -58,6 +64,9 @@
             font-size: 16px;
             cursor: pointer;
             margin-left: 10px;
+        }
+        main {
+            padding-top: 100px; /* Ensure content doesn't overlap header */
         }
     </style>
 </head>
@@ -100,3 +109,4 @@
     </script>
 </body>
 </html>
+
