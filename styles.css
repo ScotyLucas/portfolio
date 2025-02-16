@@ -87,10 +87,10 @@ main {
     backdrop-filter: blur(10px);
     border-radius: 15px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+    position: relative;
 }
 
-#intro:hover {
-    transform: translate(5px, 5px);
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+#intro.effect {
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
 }
