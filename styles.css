@@ -1,5 +1,5 @@
 body {
-    background-color: #818181;
+    background-color: #36454F;
     font-family: "Helvetica Now Pro Text Medium", sans-serif;
     cursor: none;
     margin: 0;
@@ -72,4 +72,25 @@ nav ul li a {
 
 main {
     padding-top: 100px;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin: 100px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#intro:hover {
+    transform: translate(5px, 5px);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
 }
