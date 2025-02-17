@@ -156,7 +156,7 @@ main {
 }
 
 .timeline-box {
-    width: 50%;
+    width: 40%;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     border-radius: 15px;
@@ -164,4 +164,14 @@ main {
     padding: 20px;
     margin: 20px 0;
     position: relative;
+}
+
+.timeline-box:nth-child(odd) {
+    align-self: flex-start;
+    margin-left: 10%;
+}
+
+.timeline-box:nth-child(even) {
+    align-self: flex-end;
+    margin-right: 10%;
 }
